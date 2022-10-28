@@ -1,0 +1,18 @@
+import turtle
+t = turtle.Turtle()
+t.shape()
+t.width(5)
+t.speed(0)
+t.color('red')
+x=0
+while x<3000:
+    t.color('red')
+    t.forward(500)
+    t.left(200)
+    t.forward(100)
+    t.color('black')
+    t.forward(350)
+    t.right(97)
+    t.forward(50)
+    x=x+40
+turtle.done()
